@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="spacing_vertical">10dip</dimen>
+    <dimen name="spacing_horizontal">10dip</dimen>
+    <dimen name="cell_size">100dip</dimen>
+</resources>

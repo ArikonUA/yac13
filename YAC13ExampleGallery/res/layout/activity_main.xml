@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yandex="http://schemas.android.com/apk/res/ru.yandex.yac13.example.gallery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <ru.yandex.yac13.example.gallery.PavementLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        yandex:row_height="@dimen/cell_size"
+        yandex:spacing_horizontal="@dimen/spacing_vertical"
+        yandex:spacing_vertical="@dimen/spacing_vertical" >
+
+        <TextView
+            android:background="#00aa11"
+            yandex:height="1"
+            yandex:left="0"
+            yandex:top="0"
+            yandex:width="2" />
+
+        <TextView
+            android:background="#aa0000"
+            yandex:height="1"
+            yandex:left="1"
+            yandex:top="1"
+            yandex:width="1" />
+
+        <TextView
+            android:background="#0000bb"
+            yandex:height="2"
+            yandex:left="0"
+            yandex:top="1"
+            yandex:width="1" />
+
+        <TextView
+            android:background="#bbbbbb"
+            yandex:height="1"
+            yandex:left="1"
+            yandex:top="2"
+            yandex:width="2" />
+
+        <TextView
+            android:background="#aa11ff"
+            yandex:height="1"
+            yandex:left="2"
+            yandex:top="0"
+            yandex:width="1" />
+
+        <TextView
+            android:background="#ffaa11"
+            yandex:height="1"
+            yandex:left="2"
+            yandex:top="1"
+            yandex:width="1" />
+    </ru.yandex.yac13.example.gallery.PavementLayout>
+
+</FrameLayout>

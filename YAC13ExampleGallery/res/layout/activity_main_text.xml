@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yandex="http://schemas.android.com/apk/res/ru.yandex.yac13.example.gallery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888888" >
+
+    <ru.yandex.yac13.example.gallery.CustomSlidingDrawer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        yandex:bottom_offset="200dip" >
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#dddddd"
+            android:padding="10dip"
+            android:text="@string/text_content" />
+    </ru.yandex.yac13.example.gallery.CustomSlidingDrawer>
+
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomSlidingDrawer">
+        <attr name="bottom_offset" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="PavementLayout">
+        <attr name="spacing_vertical" format="dimension" />
+        <attr name="spacing_horizontal" format="dimension" />
+        <attr name="row_height" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="PavementLayout_Layout">
+        <attr name="left" format="integer" />
+        <attr name="top" format="integer" />
+        <attr name="width" format="integer" />
+        <attr name="height" format="integer" />
+    </declare-styleable>
+
+</resources>
